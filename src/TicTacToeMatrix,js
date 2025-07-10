@@ -1,6 +1,6 @@
 const Matrix = require("./Matrix")
 
-class TicTacToe extends Matrix {
+class TicTacToeMatrix extends Matrix {
   constructor() {
     super(3, 3)
     this.loadBoard()
@@ -64,7 +64,6 @@ class TicTacToe extends Matrix {
   }
 }
 
-module.exports = TicTacToe
 
 
 let board = new TicTacToeMatrix()
